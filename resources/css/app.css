@@ -1,4 +1,8 @@
-.FlexContainer {
-    display: flex;
-    flex-direction: column;
+/* .GridContainer .GridContainer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+.GridItem, .GridItem2{
+    border: 2px solid #EEBA30;
+} */

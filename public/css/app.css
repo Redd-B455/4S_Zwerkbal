@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #f2f2f2;
 }
@@ -16,6 +16,16 @@ header{
     display: grid;
     grid-template-columns: minmax(185px, 1fr) minmax(auto, 960px) minmax(165px, 1fr);
     grid-gap: 2rem;
+}
+
+.DashboardContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.DashboardItem {
+    display: flex;
+    text-align: center;
 }
 
 nav{
