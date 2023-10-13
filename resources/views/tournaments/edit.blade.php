@@ -17,6 +17,8 @@
 		<div class="form-group">
 			<label for="name">Naam toernooi</label>
 			<input type="text" id="name" name="name" class="form-control" value="{{ $tournament->name }}">
+            <input type="date" id="date" name="date" class="form-control" value="{{ $tournament->date }}">
+            <input type="text" id="name" name="name" class="form-control" value="{{ $tournament->name }}">
 		</div>
 		<button type="submit">Opslaan</button>
 	</form>
